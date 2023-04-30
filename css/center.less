@@ -1,0 +1,316 @@
+.center {
+    width: 100%;
+    background-color: #f6f6f6;
+
+    .center-L {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 15%;
+        align-items: center;
+
+        ul {
+            padding: 33vmin *0.1 0;
+            width: 100%;
+            border-top: 1vmin *0.1 solid #f4f4f4;
+            padding-left: 10%;
+
+            li:first-child {
+
+                font-size: 20vmin *0.1;
+                color: #72dfc0;
+                margin-bottom: 33vmin *0.1;
+
+                &:nth-child(n+1) {
+                    margin-bottom: 20vmin *0.1;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        a {
+            color: #666666;
+            font-size: 14vmin *0.1;
+        }
+    }
+
+    .center-Box {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30vmin *0.1;
+    }
+
+    .icon-Box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 33vmin *0.1;
+        padding-top: 47vmin *0.1;
+        width: 100%;
+        text-align: center;
+
+        div {
+            img {
+                width: 60%;
+            }
+        }
+
+        h2 {
+            font-size: 17vmin *0.1;
+        }
+
+        span:last-child {
+
+            color: white;
+            width: 60%;
+            height: 20%;
+            line-height: 160%;
+            margin-top: 0.6vw;
+            font-size: 1vw;
+            overflow: hidden;
+            background-image: linear-gradient(264deg,
+                    #f7e015 0%,
+                    #ea745e 95%,
+                    #e4973c 100%);
+            border-radius: 13vmin *0.1;
+        }
+    }
+}
+
+.center-R {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-left: 18vmin *0.1;
+
+    .manber {
+        background-color: white;
+        display: flex;
+        width: 100%;
+        padding: 25vmin *0.1 22vmin *0.1 25vmin *0.1 22vmin *0.1;
+        align-items: center;
+
+        ul {
+            display: flex;
+            font-size: 20vmin *0.1;
+            flex: 1;
+            justify-content: space-evenly;
+            align-items: center;
+            text-align: center;
+            color: #72dfc0;
+
+            li p {
+                font-size: 16vmin *0.1;
+                margin-top: 15vmin *0.1;
+                color: #333;
+            }
+
+            &:last-child {
+                color: #e05e30;
+            }
+
+            &:last-child p {
+                margin: 0vmin *0.1;
+                color: #333333;
+            }
+
+            &:first-child {
+                border-right: 1vmin *0.1 solid #000;
+            }
+        }
+    }
+
+    .my-tyuumon {
+        margin-top: 20vmin *0.1;
+        background-color: white;
+
+        .my-kanri {
+            margin: 22vmin *0.1 17vmin *0.1 22vmin *0.1 19vmin *0.1;
+
+            &:first-child {
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                margin-top: 36vmin *0.1;
+                font-size: 20vmin *0.1;
+
+                span {
+                    &:last-child {
+                        color: #999999;
+                        font-size: 16vmin *0.1;
+                    }
+                }
+            }
+        }
+
+        div {
+            &:nth-child(n+2) {
+                display: flex;
+                height: 137vmin *0.1;
+                align-items: center;
+                border: 1vmin *0.1 solid #f4f4f4;
+
+                li {
+                    &:nth-child(n+1) {
+                        font-size: 14vmin *0.1;
+                        display: flex;
+                        flex-wrap: nowrap;
+                        overflow: hidden;
+                        flex: 1;
+                        text-align: center;
+                        justify-content: center;
+                    }
+
+                    &:first-child {
+                        flex: .75;
+                        line-height: 16vmin *0.1;
+                    }
+
+
+                    &:nth-child(2) {
+                        display: flex;
+                        text-align:start;
+                        margin-left: 1vw;
+                        font-size: 2vmin;
+                        flex-wrap: nowrap;
+                        overflow: hidden;
+                        p {
+                            text-overflow: ellipsis;
+                            color: rgb(179, 179, 179);
+                            font-size: 1vw;
+                            margin-top: 13vmin *0.1;
+                            
+                        }
+                    }
+
+                    &:nth-child(3) {
+                        color: #e05e2f;
+                    }
+
+                    &:nth-child(3) p {
+                        color: #999999;
+                        font-size: 14vmin *0.1;
+                    }
+
+                    &:nth-child(4) span {
+                        color: #e23535;
+                    }
+
+                    &:nth-child(4) p {
+                        color: black;
+                        margin-top: 8vmin *0.1;
+                    }
+
+                    &:nth-child(5) button {
+                        width: 100vmin *0.1;
+                        height: 30vmin *0.1;
+                        background-color: #6eceb1;
+                        border-radius: 2vmin *0.1;
+                        color: white;
+                        margin-bottom: 10vmin *0.1;
+                        border: 1vmin *0.1 solid rgb(187, 187, 187);
+                    }
+
+                    &:nth-child(5) p {
+                        margin-top: 8vmin *0.1;
+                    }
+
+                    &:nth-child(n+2) {
+                        height: 100%;
+                        border-right: 1vmin *0.1 solid #e8e8e8;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+
+
+                }
+
+
+            }
+
+        }
+
+        img {
+            height: 100%;
+            width: 100vmin *0.1;
+        }
+    }
+}
+
+.my-Korekusyon {
+    background-color: white;
+    margin-top: 20vmin *0.1;
+    padding: 28vmin *0.1 22vmin *0.1 35vmin *0.1 16vmin *0.1;
+
+
+    div {
+        &:nth-child(2) {
+            display: flex;
+            justify-content: space-around;
+
+            li {
+                display: flex;
+                flex-direction: column;
+                width: 160vmin *0.1;
+                margin-top: 33vmin *0.1;
+                font-size: 1.3vw;
+                position: relative;
+                overflow: hidden;
+            }
+
+            img {
+                height: 100%;
+                width: 100%;
+                margin-bottom: 22vmin *0.1;
+            }
+
+            p {
+                font-size: 22vmin *0.1;
+                margin-top: 33vmin *0.1;
+                color: #e23535;
+
+                i {
+                    font-size: 17vmin *0.1;
+                    margin-right: .6vw;
+                }
+            }
+
+            h2 {
+                color: #72dfc0;
+                position: absolute;
+                top: 0vmin *0.1;
+                background-color: white;
+                writing-mode: vertical-lr;
+                text-orientation: upright;
+                font-size: 1vw;
+                border: 1vmin *0.1 solid #72dfc0;
+                border-radius:10%;
+                padding: .5vw 1vmin *0.1;
+            }
+        }
+
+
+        &:first-child {
+            font-size: 22vmin *0.1;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 18vmin *0.1;
+            border-bottom: 1vmin *0.1 solid #cfcfcf;
+
+            span {
+                font-size: 16vmin *0.1;
+                color: #999999;
+
+            }
+
+        }
+    }
+}

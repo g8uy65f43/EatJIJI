@@ -1,0 +1,246 @@
+.center {
+  width: 100%;
+  background-color: #f6f6f6;
+}
+.center .center-L {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 15%;
+  align-items: center;
+}
+.center .center-L ul {
+  padding: 3.3vmin 0;
+  width: 100%;
+  border-top: 0.1vmin solid #f4f4f4;
+  padding-left: 10%;
+}
+.center .center-L ul li:first-child {
+  font-size: 2vmin;
+  color: #72dfc0;
+  margin-bottom: 3.3vmin;
+}
+.center .center-L ul li:first-child:nth-child(n+1) {
+  margin-bottom: 2vmin;
+}
+.center .center-L ul li:first-child:last-child {
+  margin-bottom: 0;
+}
+.center .center-L a {
+  color: #666666;
+  font-size: 1.4vmin;
+}
+.center .center-Box {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3vmin;
+}
+.center .icon-Box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3.3vmin;
+  padding-top: 4.7vmin;
+  width: 100%;
+  text-align: center;
+}
+.center .icon-Box div img {
+  width: 60%;
+}
+.center .icon-Box h2 {
+  font-size: 1.7vmin;
+}
+.center .icon-Box span:last-child {
+  color: white;
+  width: 60%;
+  height: 20%;
+  line-height: 160%;
+  margin-top: 0.6vw;
+  font-size: 1vw;
+  overflow: hidden;
+  background-image: linear-gradient(264deg, #f7e015 0%, #ea745e 95%, #e4973c 100%);
+  border-radius: 1.3vmin;
+}
+.center-R {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin-left: 1.8vmin;
+}
+.center-R .manber {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  padding: 2.5vmin 2.2vmin 2.5vmin 2.2vmin;
+  align-items: center;
+}
+.center-R .manber ul {
+  display: flex;
+  font-size: 2vmin;
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  color: #72dfc0;
+}
+.center-R .manber ul li p {
+  font-size: 1.6vmin;
+  margin-top: 1.5vmin;
+  color: #333;
+}
+.center-R .manber ul:last-child {
+  color: #e05e30;
+}
+.center-R .manber ul:last-child p {
+  margin: 0vmin;
+  color: #333333;
+}
+.center-R .manber ul:first-child {
+  border-right: 0.1vmin solid #000;
+}
+.center-R .my-tyuumon {
+  margin-top: 2vmin;
+  background-color: white;
+}
+.center-R .my-tyuumon .my-kanri {
+  margin: 2.2vmin 1.7vmin 2.2vmin 1.9vmin;
+}
+.center-R .my-tyuumon .my-kanri:first-child {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 3.6vmin;
+  font-size: 2vmin;
+}
+.center-R .my-tyuumon .my-kanri:first-child span:last-child {
+  color: #999999;
+  font-size: 1.6vmin;
+}
+.center-R .my-tyuumon div:nth-child(n+2) {
+  display: flex;
+  height: 13.7vmin;
+  align-items: center;
+  border: 0.1vmin solid #f4f4f4;
+}
+.center-R .my-tyuumon div:nth-child(n+2) li:nth-child(n+1) {
+  font-size: 1.4vmin;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  flex: 1;
+  text-align: center;
+  justify-content: center;
+}
+.center-R .my-tyuumon div:nth-child(n+2) li:first-child {
+  flex: 0.75;
+  line-height: 1.6vmin;
+}
+.center-R .my-tyuumon div:nth-child(n+2) li:nth-child(2) {
+  display: flex;
+  text-align: start;
+  margin-left: 1vw;
+  font-size: 2vmin;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.center-R .my-tyuumon div:nth-child(n+2) li:nth-child(2) p {
+  text-overflow: ellipsis;
+  color: #b3b3b3;
+  font-size: 1vw;
+  margin-top: 1.3vmin;
+}
+.center-R .my-tyuumon div:nth-child(n+2) li:nth-child(3) {
+  color: #e05e2f;
+}
+.center-R .my-tyuumon div:nth-child(n+2) li:nth-child(3) p {
+  color: #999999;
+  font-size: 1.4vmin;
+}
+.center-R .my-tyuumon div:nth-child(n+2) li:nth-child(4) span {
+  color: #e23535;
+}
+.center-R .my-tyuumon div:nth-child(n+2) li:nth-child(4) p {
+  color: black;
+  margin-top: 0.8vmin;
+}
+.center-R .my-tyuumon div:nth-child(n+2) li:nth-child(5) button {
+  width: 10vmin;
+  height: 3vmin;
+  background-color: #6eceb1;
+  border-radius: 0.2vmin;
+  color: white;
+  margin-bottom: 1vmin;
+  border: 0.1vmin solid #bbbbbb;
+}
+.center-R .my-tyuumon div:nth-child(n+2) li:nth-child(5) p {
+  margin-top: 0.8vmin;
+}
+.center-R .my-tyuumon div:nth-child(n+2) li:nth-child(n+2) {
+  height: 100%;
+  border-right: 0.1vmin solid #e8e8e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.center-R .my-tyuumon img {
+  height: 100%;
+  width: 10vmin;
+}
+.my-Korekusyon {
+  background-color: white;
+  margin-top: 2vmin;
+  padding: 2.8vmin 2.2vmin 3.5vmin 1.6vmin;
+}
+.my-Korekusyon div:nth-child(2) {
+  display: flex;
+  justify-content: space-around;
+}
+.my-Korekusyon div:nth-child(2) li {
+  display: flex;
+  flex-direction: column;
+  width: 16vmin;
+  margin-top: 3.3vmin;
+  font-size: 1.3vw;
+  position: relative;
+  overflow: hidden;
+}
+.my-Korekusyon div:nth-child(2) img {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 2.2vmin;
+}
+.my-Korekusyon div:nth-child(2) p {
+  font-size: 2.2vmin;
+  margin-top: 3.3vmin;
+  color: #e23535;
+}
+.my-Korekusyon div:nth-child(2) p i {
+  font-size: 1.7vmin;
+  margin-right: 0.6vw;
+}
+.my-Korekusyon div:nth-child(2) h2 {
+  color: #72dfc0;
+  position: absolute;
+  top: 0vmin;
+  background-color: white;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-size: 1vw;
+  border: 0.1vmin solid #72dfc0;
+  border-radius: 10%;
+  padding: 0.5vw 0.1vmin;
+}
+.my-Korekusyon div:first-child {
+  font-size: 2.2vmin;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.8vmin;
+  border-bottom: 0.1vmin solid #cfcfcf;
+}
+.my-Korekusyon div:first-child span {
+  font-size: 1.6vmin;
+  color: #999999;
+}

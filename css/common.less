@@ -1,0 +1,146 @@
+.mainBox {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5vw;
+
+    div:nth-child(n-1) {
+        margin: 0 1vw;
+    }
+
+    &.header {
+        flex: .5;
+        margin-left: 10vmin *0.1;
+    }
+
+    img {
+        height: 7vw;
+    }
+
+    .header-L {
+        flex: 3;
+        display: flex;
+        font-size:3vmin  ;
+    }
+
+    ul {
+        flex: 3;
+        display: flex;
+        justify-content: space-around;
+
+        li {
+            transition: all .8s;
+            align-items: center;
+            padding: 10vmin *0.1 10vmin *0.1;
+
+            &:hover {
+                background-color: rgb(112, 112, 112);
+                color: #fff;
+            }
+        }
+    }
+
+
+    .header-R {
+        flex: 1;
+        padding-left: 3vw;
+        display: flex;
+        height: 100vmin *0.1;
+        align-items: center;
+
+        input {
+            line-height: 35vmin *0.1;
+            border: 2vmin *0.1 solid rgb(204, 204, 201);
+            vertical-align: middle;
+            height: 2vw;
+            width: 9vw;
+            transition: all .3s;
+            border-radius: 10vmin *0.1;
+            font-size: 10px;
+            padding-left: 1.5vw;
+            margin-left: 1vw;
+
+            &:hover {
+                line-height: 40vmin *0.1;
+                height: 2.1vw;
+                border: 2vmin *0.1 solid rgb(143, 143, 143);
+                padding-left: 2vw;
+                width: 10vw;
+            }
+        }
+
+        i {
+            line-height: 30vmin *0.1;
+            vertical-align: middle
+        }
+    }
+}
+
+.end {
+    margin: 2vw 0vw;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .end-Box {
+
+        div {
+            margin: 1vw 0;
+        }
+    }
+
+    .libox ul {
+        display: flex;
+        margin: 1.5vw;
+
+        a {
+            font-size: 1vw;
+            transition: all .5s;
+            color: rgba(14, 38, 255, 0.541);
+            font-weight: 800;
+
+            &:hover {
+                font-size: 1.2vw;
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
+
+    .lasticon {
+        display: flex;
+        justify-content: space-around;
+
+        li {
+            margin: 0 5vw;
+
+            h1 {
+                font-family: 標楷體;
+                padding: 2.5vw;
+                transition: all .4s;
+                margin-top: 1vw;
+                color: rgb(85, 85, 85);
+
+                &:hover {
+                    padding: 2.7vw;
+                    color: rgb(219, 219, 219);
+                    border: 5vmin *0.1 solid rgba(107, 107, 107, 0.842);
+                    background-color: rgb(110, 110, 110);
+                    border-radius: 20vmin *0.1;
+                }
+            }
+        }
+    }
+
+    .lasth3 {
+        text-align: center;
+        font-size: .6vw;
+        padding-bottom: 1vw;
+    }
+}

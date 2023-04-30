@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吃雞雞-註冊</title>
+    <link rel="stylesheet" href="/tools//bootstrap-5.1.1-dist/css/bootstrap.min.css">
+    <script src="./tools/bootstrap-5.1.1-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/tools/icofont/icofont.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/swiper__Effect_cube.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+
+<body>
+    <div class="mainBox"> <!-- 頭部 -->
+        <header> <!-- 頭部左方 -->
+            <div class="header wrapper"> <img class="Logo" src="/images/Logo.png" alt=""> </div>
+            <div class="header-L">
+                <ul>
+                    <li><a href="/home.html">首頁</a></li>
+                    <li><a href="/allgoods.html">食材</a></li>
+                    <li><a href="/center.html">會員中心</a></li>
+                    <li><a href="/car.html">購物車</a></li>
+                </ul>
+            </div>
+            <div class="header-R"> <i class="icofont-ui-search"></i> <input type="text" name="kensaku" id="kensaku"
+                    placeholder="請輸入關鍵字">
+                <div id="car"> </div>
+            </div>
+        </header>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"> <img src="/uploads/goods/0.jpg" /> </div>
+                <div class="swiper-slide"> <img src="/uploads/goods/2.jpg" /> </div>
+                <div class="swiper-slide"> <img src="/uploads/goods/3.jpg" /> </div>
+                <div class="swiper-slide"> <img src="/uploads/goods/4.jpg" /> </div>
+                <div class="swiper-slide"> <img src="/uploads/goods/5.jpg" /> </div>
+                <div class="swiper-slide"> <img src="/uploads/goods/6.jpg" /> </div>
+                <div class="swiper-slide"> <img src="/uploads/goods/7.jpg" /> </div>
+                <div class="swiper-slide"> <img src="/uploads/goods/8.jpg" /> </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="userinfo">
+            <form>
+                <div class="mb-3"> <label for="exampleInputEmail1" class="form-label">帳號</label> <input type="email"
+                        class="form-control" id="userid" aria-describedby="emailHelp"> </div>
+                <div class="mb-3"> <label for="exampleInputPassword1" class="form-label">密碼</label> <input
+                        type="password" class="form-control" id="password"> </div>
+                <div class="mb-3"> <label for="exampleInputEmail1" class="form-label">電子信箱</label> <input type="email"
+                        class="form-control" id="email" aria-describedby="emailHelp"> </div>
+                <div class="keepme mb-3 form-check">
+                    <li class="form-check-label" for="exampleCheck1"><a href="/user.html">登入</a></li>
+                </div> <button type="submit" class="btn btn-primary">註冊</button>
+            </form>
+        </div>
+        <div class="end ">
+            <div class="libox">
+                <ul>
+                    <li><a href="maintain.html">關於我們</a></li>
+                    <li><a href="maintain.html">幫助中心</a></li>
+                    <li><a href="maintain.html">售後服務</a></li>
+                    <li><a href="maintain.html">配送與驗收</a></li>
+                    <li><a href="maintain.html">商務合作</a></li>
+                    <li><a href="maintain.html">搜索推薦</a></li>
+                    <li><a id="lasta" href="maintain.html">友情鏈接</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="lasth3">CopyRight ©吃雞雞</h3>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./js/swiper_Effect_cube.js"></script>
+</body>
+
+</html>

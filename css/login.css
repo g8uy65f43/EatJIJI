@@ -1,0 +1,14 @@
+.mainBox .userinfo {
+  margin: 5vw;
+  padding: 3vw;
+  border: 5px solid #5cbda0;
+  margin-left: 50%;
+  border-radius: 50px;
+  width: 20vw;
+  display: flex;
+}
+.mainBox .userinfo .keepme {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}

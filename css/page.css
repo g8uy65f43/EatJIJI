@@ -1,0 +1,44 @@
+.good_box {
+  display: flex;
+  height: 40vw;
+  border: 2px solid #b1b1b1;
+}
+.good_box .good_img_box {
+  flex: 1.5;
+}
+.good_box .good_img_box img {
+  width: 100%;
+  height: 100%;
+}
+.good_box .good_text_box {
+  flex: 1;
+  width: 100%;
+  font-size: 2.5vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5vw;
+}
+.good_box .good_text_box .good_title {
+  flex: 2;
+}
+.good_box .good_text_box .good_price {
+  flex: 1;
+  font-size: 2vw;
+}
+.good_box .good_text_box .good_text {
+  flex: 5;
+  font-size: 2vw;
+  margin: 2vw 1vw;
+}
+.good_box .good_text_box .buy_btn {
+  flex: 1;
+  font-size: 2vw;
+  margin-top: 3vw;
+  border: 1px solid #686767;
+  width: 7vw;
+  height: 3vw;
+  line-height: 3vw;
+  border-radius: 20px;
+}
